@@ -1,4 +1,4 @@
-def take_input():
+def get_urls():
   fp = open('/data/urls.csv', 'r+')
   print("write 'end' for end of urls\n")
   while(True):
