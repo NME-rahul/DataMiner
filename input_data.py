@@ -11,10 +11,10 @@ def get_urls():
    
 def get_keywords():
   keywords = []
-  print("write '.end' for end of urls\n")
+  print("write '.end' for end of keywords\n")
   while(True):
     keywords.append(input())
-    if keyword[len(keywords) - 1] == '.end':
+    if keywords[len(keywords) - 1] == '.end':
       break
       
   return keywords
